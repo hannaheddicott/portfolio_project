@@ -1,0 +1,38 @@
+body {
+    background-color:#99ffe6;
+background-image:
+radial-gradient(at 53% 83%, hsla(325,79%,63%,1) 0px, transparent 50%),
+radial-gradient(at 87% 19%, hsla(205,85%,78%,1) 0px, transparent 50%),
+radial-gradient(at 67% 86%, hsla(199,96%,69%,1) 0px, transparent 50%),
+radial-gradient(at 68% 8%, hsla(83,61%,64%,1) 0px, transparent 50%),
+radial-gradient(at 52% 78%, hsla(353,91%,71%,1) 0px, transparent 50%),
+radial-gradient(at 51% 74%, hsla(243,98%,70%,1) 0px, transparent 50%),
+radial-gradient(at 47% 44%, hsla(41,82%,66%,1) 0px, transparent 50%);
+}
+
+* {
+    font-family: Parkinsans;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.zeddicott, .kelpi {
+    margin: 10%;
+    display: flex;
+}
+
+.z, .k {
+ margin-left: -10%;
+ border-radius: 10px;
+}
+
+

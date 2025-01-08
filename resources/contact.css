@@ -1,0 +1,21 @@
+body {
+    background-color:#ff99ad;
+    background-image:
+    radial-gradient(at 83% 77%, hsla(51,93%,65%,1) 0px, transparent 50%),
+    radial-gradient(at 27% 74%, hsla(251,88%,65%,1) 0px, transparent 50%),
+    radial-gradient(at 12% 23%, hsla(44,61%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 8% 28%, hsla(183,95%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 78% 64%, hsla(78,84%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 72% 55%, hsla(183,84%,71%,1) 0px, transparent 50%),
+    radial-gradient(at 39% 4%, hsla(86,63%,62%,1) 0px, transparent 50%);
+}
+
+* {
+    font-family: Parkinsans;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
