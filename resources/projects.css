@@ -21,18 +21,54 @@ h1 {
     margin-bottom: 0px;
 }
 
-h2 {
-    margin-top: 0px;
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.zeddicott, .kelpi {
+h2 {
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+.container1 {
     margin: 10%;
     display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
 
 .z, .k {
- margin-left: -10%;
  border-radius: 10px;
 }
 
+.description, .description2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
+.zeddicott p, .kelpi p {
+    text-align: center;
+}
+
+figure {
+    align-content: center;
+    justify-self: center;
+}
+
+footer h6 {
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 15px;
+}

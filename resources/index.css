@@ -33,7 +33,9 @@ a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.75);
 }
-
+a:hover {
+    font-weight: bold;
+}
 h1 {
     color: rgba(255, 255, 255, 0.75);
     text-align: center;
@@ -63,6 +65,7 @@ nav {
 .img-of-me {
     width: 350px;
     height:350px;
+    border-radius: 20px;
 }
 
 .about-me-2 {
@@ -100,10 +103,8 @@ nav {
     border-radius: 20%;
 }
 
-footer {
+footer h6 {
+    font-weight: lighter;
     text-align: center;
-    font-size: 14px;
-    color: white;
-    margin-bottom: 5px;
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
